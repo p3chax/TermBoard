@@ -2,6 +2,10 @@
 
 > Live CPU • Memory • Network • GitHub stars • Clock - right in your terminal, powered by [Rich](https://github.com/Textualize/rich).
 
+<p align="center">
+<img src="demo.gif" alt="Gameplay demo" width="720" />
+</p>
+
 ---
 
 ## ✨ Features
